@@ -1,3 +1,3 @@
-import { createConnection } from 'typeorm';
+import { createConnections } from 'typeorm';
 
-createConnection(); // procura automaticamente um arquivo ormconfig.json para buscar as credenciais do DB
+createConnections(); // procura automaticamente um arquivo ormconfig.json para buscar as credenciais do DB
